@@ -5,6 +5,11 @@ const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 
+// app.get("/popular", (req, res)=>{
+//
+// });
+
+
 app.listen(process.env.LOCAL_PORT || 8100, ()=>{
     console.log('Server running on http://localhost:8100/');
 });

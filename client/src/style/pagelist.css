@@ -1,0 +1,42 @@
+.Page-Table{
+    width: 85%;
+    margin: 0px auto 0px auto;
+    background-color: whitesmoke;
+}
+
+.Page-Rows{
+    /*border-bottom: 1px solid black;*/
+    margin-bottom: 2px;
+}
+
+.Page-Cell{
+    border-bottom: 1px solid LightGrey;
+    color: #828282;
+    padding: 5px;
+}
+
+.Row-Title{
+    text-decoration: none;
+    font-weight: 500;
+    color: #4682B4;
+    font-size: 18px;
+    font-faily: Verdana, Geneva, sans-serif;
+}
+
+.Row-Url{
+    text-decoration: none;
+    color: #828282;
+    font-size: 14px;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Row-Url:hover{
+    text-decoration: underline solid currentColor;
+}
+
+.Row-Description{
+    word-wrap: break-word;
+    color: #545454;
+    font-size: 15px;
+    width: 75%;
+}

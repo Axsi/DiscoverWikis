@@ -1,0 +1,128 @@
+p{
+    margin: 0;
+}
+
+.Header-Container{
+    /*width: 1600px;*/
+    width: 85%;
+    height: 40px;
+    margin: 3px auto 0px auto;
+    padding: 2px;
+    background-color: #4682B4;
+    color:white;
+    display:flex;
+    align-items: center;
+
+}
+
+.TW-Header{
+    display:flex;
+    /*width: 1600px;*/
+    width:100%;
+    align-items: center;
+}
+
+.Name-Container{
+    Display:flex;
+    justify-content: space-between;
+    /*width: 205px;*/
+    width: 13em;
+    margin-left: 2px;
+    align-items: center;
+}
+
+.Logo{
+    border: 1px white solid;
+    width: 30px;
+    height: 30px;
+
+}
+
+.Title{
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 5px;
+}
+
+.Title:hover{
+    cursor: default;
+}
+
+.Selection-Container{
+    Display:flex;
+    /*width:1170px;*/
+    width:56%;
+    align-items: center;
+    margin-left:30px;
+}
+
+.Selection-List{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.Selection-List li{
+    display: inline;
+}
+
+.Divider{
+    width: 1px;
+    min-height:25px;
+    margin: 4px 12px 4px 12px;
+    font-size: 20px;
+}
+
+.Choice{
+    color: white;
+    text-decoration: none;
+    font-size:19px;
+}
+
+.Choice:hover,.Selected:hover{
+    text-decoration: underline solid currentColor;
+}
+
+.Selected{
+    color: orangered;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.Search-Container{
+    width: 34%;
+    height:22px;
+    display:flex;
+    overflow:hidden;
+}
+
+.Search-Form{
+    display:flex;
+    height:22px;
+    width: 100%;
+}
+
+.Type-Label{
+    white-space: nowrap;
+}
+
+#Search-Type{
+    margin: 0px 13px 0px 5px;
+    /*width: 24%*/
+    width:9em;
+}
+
+.Bar-Label{
+    white-space:nowrap;
+}
+#Search-Bar{
+    width: 16em;
+    /*width:38%;*/
+    margin: 0px 10px 0px 5px;
+}
+
+.Search-Button{
+    margin-right: 5px;
+    width: 5em;
+}
