@@ -10,6 +10,7 @@ through the use of the Wikipedia API
 ## Built with
 * Javascript
 * React
+* Wikipedia API
 
 
 ## Features
